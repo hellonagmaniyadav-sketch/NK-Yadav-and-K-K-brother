@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nagmani Yadav | Resume</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+    background: linear-gradient(-45deg, #ff0080, #7928ca, #00c6ff, #00ff95);
+    background-size: 400% 400%;
+    animation: gradientBG 10s ease infinite;
+}
+
+@keyframes gradientBG {
+    0% {background-position:0% 50%;}
+    50% {background-position:100% 50%;}
+    100% {background-position:0% 50%;}
+}
+
+.container {
+    text-align: center;
+    padding: 30px;
+}
+
+.profile {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 0 0 25px cyan;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%,100% {transform: translateY(0);}
+    50% {transform: translateY(-15px);}
+}
+
+.name {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 15px;
+    animation: colorChange 5s infinite;
+}
+
+@keyframes colorChange {
+    0% {color: red;}
+    25% {color: yellow;}
+    50% {color: cyan;}
+    75% {color: lime;}
+    100% {color: red;}
+}
+
+.moving {
+    font-size: 28px;
+    font-weight: bold;
+    white-space: nowrap;
+    position: relative;
+    animation: moveText 8s linear infinite;
+}
+
+@keyframes moveText {
+    0% {left: -100%;}
+    100% {left: 100%;}
+}
+
+.card {
+    background: rgba(255,255,255,0.15);
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 20px black;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    margin: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.whatsapp {
+    background: #25D366;
+}
+
+.email {
+    background: #ff0066;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.footer {
+    margin-top: 20px;
+    color: white;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+<div class="moving">Hello Nagmani Yadav</div>
+
+<img src="nagmani.jpg" class="profile">
+
+<div class="name">Nagmani Yadav</div>
+
+<div class="card">
+<h2>🎓 Education</h2>
+<p>12th Pass</p>
+<p>ADCA+ (Pt. Sheel Bhadra Yajee Memorial Vocational Training Institute, Bakhtiyarpur)</p>
+</div>
+
+<div class="card">
+<h2>📞 Contact</h2>
+
+<a class="btn whatsapp" href="https://wa.me/919204909834" target="_blank">
+WhatsApp Chat
+</a>
+
+<a class="btn email" href="mailto:xhotnagmaniyadav@gmail.com">
+Send Email
+</a>
+
+<p>Phone: 9204909834</p>
+<p>Email: xhotnagmaniyadav@gmail.com</p>
+
+</div>
+
+<div class="footer">
+© 2026 Nagmani Yadav | All Rights Reserved
+</div>
+
+</div>
+
+</body>
+</html>
